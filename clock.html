@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    
+    <div class="container card-content valign center" style="margin-bottom: 120px;">
+      <!-- Local date and time -->
+      <h1>Digital Clock</h1>
+      <h3>Your Location</h3>
+      <h2><strong>Today is </strong><span id="my-date-span"></span> </h2>
+      <h2>  <span id="my-time-span">00:00</span> </h2>
+
+    </div>
+
+    <div class="container card-content valign center">
+    <!-- Around the world date and time -->
+      <div class="grid">
+        <div class="row">
+          <div class="col l4 m6 s12 cls-clock">
+            <h1>Japan <br> Clock</h1>
+            <p>Tokyo</p>
+            <h2>  <span id="japan-time-span" class="cls-exclock">00:00</span> </h2>
+          </div>
+          <div class="col l4 m6 s12 cls-clock">
+            <h1>Argentina Clock</h1>
+            <p>Buenos Aires</p>
+            <h2>  <span id="arg-time-span" class="cls-exclock">00:00</span> </h2>
+          </div>
+          <div class="col l4 m6 s12 cls-clock ">
+            <h1>Germany Clock</h1>
+            <p>Berlín</p>
+            <h2>  <span id="ger-time-span" class="cls-exclock">00:00</span> </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="scripts.js"></script>
+
+  </body>
+</html>

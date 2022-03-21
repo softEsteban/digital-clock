@@ -1,0 +1,17 @@
+#my-time-span{
+    background-color: #5d2bff41;
+}
+
+.cls-clock{
+    border: 2px solid black;
+    height: 420px;
+}
+
+.cls-exclock{
+    position: relative;
+    bottom: -20px;
+}
+
+p{
+    font-size: 35px;
+}
